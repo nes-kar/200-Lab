@@ -1,5 +1,5 @@
-def isPrime(N):
-	l = [N % i for i in range(2, N)]
+def isPrime(n):
+	l = [n % i for i in range(2, n)]
 	if 0 in l:
 		return False
 	else:
