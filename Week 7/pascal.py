@@ -17,7 +17,7 @@ for i in range(1, N+1):
 	intermediateList = PairwiseAdd(intermediateList)
 """
 
-l = [1, 2, 3, 4]
+#l = [1, 2, 3, 4]
 N = int(input("Number of iterations: "))
 for i in range(1, N+ 1):
 	print(l)
