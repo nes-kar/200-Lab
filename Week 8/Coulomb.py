@@ -4,7 +4,7 @@ def find_distance(c1, c2):
 	x2, y2, z2 = c2
 	return sqrt((x1 - x2)**2 + (y1 - y2)**2 + (z1 - z2)**2)
 	
-k = 1
+k = 1 # Unit not necessary 
 def find_forces(c1, c2, q1, q2):
 	r = find_distance(c1, c2)
 	x1, y1, z1 = c1
